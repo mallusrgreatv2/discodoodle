@@ -2,7 +2,7 @@
   "name": "discodoodle",
   "version": "0.0.1",
   "main": "dist/index.js",
-  "author": "mallusrgreatv2 <69511006+mallusrgreatv2@users.noreply.github.com>",
+  "author": "mallusrgreatv2 <mallusrgreat@proton.me>",
   "license": "MIT",
   "scripts": {
     "test": "node test",
@@ -25,5 +25,25 @@
       "import": "./dist/index.mjs"
     }
   },
-  "typings": "./typings/index.d.ts"
+  "typings": "./typings/index.d.ts",
+  "repository": {
+    "url": "https://github.com/mallusrgreatv2/discodoodle.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/mallusrgreatv2/discodoodle/issues"
+  },
+  "keywords": [
+    "discord",
+    "helper",
+    "functions",
+    "easy",
+    "fast",
+    "discord bots"
+  ],
+  "categories": [
+    "Other"
+  ],
+  "homepage": "https://github.com/mallusrgreatv2/discodoodle?tab=readme-ov-file",
+  "readme": "https://github.com/mallusrgreatv2/discodoodle?tab=readme-ov-file"
 }
