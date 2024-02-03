@@ -8,5 +8,5 @@
  * doodle.convertTimeToDiscord(Date.now() - 3000, "R") // When posted on Discord, shows 3 seconds ago
  */
 export default function convertTimeToDiscord(time, type) {
-    return `<t:${Math.floor(Math.abs(time) / 1000)}${type ? `:${type}` : ""}>`;
+    return `<t:${Math.floor(time / 1000)}${type ? `:${type}` : ""}>`;
 }
