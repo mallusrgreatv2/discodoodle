@@ -1,0 +1,29 @@
+{
+  "name": "discodoodle",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "author": "mallusrgreatv2 <69511006+mallusrgreatv2@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test",
+    "build": "yarn clean && tsup src --format cjs,esm",
+    "clean": "rimraf ./dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "rimraf": "^5.0.5",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist",
+    "typings"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "typings": "./typings/index.d.ts"
+}
